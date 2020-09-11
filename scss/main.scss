@@ -1,0 +1,85 @@
+
+$theme-colors: (
+    "primary": #4C51CC,
+    "secondary": #BFBFBF,
+    "apr-txt": #4B4D84,
+    "apr-grey": #f9f9f9
+  );
+//$border-radius: 10rem;
+
+$border-radius-rounded:3rem;
+
+
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+.body-signin {
+    text-align: center;
+    display: flex;
+    background-color: #ECEFF1;
+    padding: 40px 0;
+    align-items: center;
+}
+
+.form-signin {
+    max-width: 360px;
+    padding: 2rem;
+    margin: auto;
+    background-color: #fff;
+}
+
+.btn-lg-apr {
+    padding: 0.5rem 1rem;
+    font-size: 1.25rem;
+    border-radius: 3rem;
+}
+
+.form-control-lg-apr {
+    min-height: calc(1.5em + 1rem + 2px);
+    padding: 0.5rem 1rem;
+    font-size: 1.25rem;
+    border-radius: 3rem;
+    border: none;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+.apr-table th {
+    vertical-align: middle;
+    font-size: .8rem;
+    font-weight: 400;
+    color: #828282;
+}
+
+.round-button {
+    display: inline-flex;
+    height: 40px;
+    width: 40px;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    border-radius: 100%;
+    box-shadow: 0 1px 1px 0 rgba(66, 66, 66, 0.08), 0 1px 3px 1px rgba(66, 66, 66, 0.16);
+
+}
+
+.shadow-1 {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+.form-select,
+.form-control {
+    background-color: #F9F9F9;
+    border: none;
+    border-radius: 10rem;
+}
+
+.form-label {
+    text-transform: uppercase;
+    font-size: .75rem;
+    color: #adadad;
+    font-weight: 500;
+}
+
+.btn {
+    border-radius: 10rem;
+}

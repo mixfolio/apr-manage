@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="ru" class="border border-primary">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Страница не найдена</title>
+  <!-- MDB icon -->
+  <link rel="icon" href="img/favicon.ico" type="image/x-icon" />
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" />
+  <!-- Google Fonts Roboto -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" />
+
+  <link rel="stylesheet" href="css/main.css" />
+
+</head>
+
+<body class="border">
+  <nav class="navbar flex-md-nowrap p-0 shadow-1">
+    <a class="navbar-brand col-md-3 col-lg-2 mr-0 px-3" href="#">
+      <img class="my-3" src="img/svg/apr-logo-07-2.svg" height="36" alt="АПР-лого">
+    </a>
+    <button class="navbar-toggler position-absolute d-md-none collapsed" type="button" data-toggle="collapse"
+      data-target="#sidebarMenu" aria-controls="sidebarMenu" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <h6 class="text-apr-txt">Система управления ГБУ АПР</h6>
+    <div class="d-flex">
+      <form class="form-inline">
+        <input class="form-control" type="text" placeholder="Поиск" aria-label="Search">
+
+
+      </form>
+
+      <ul class="navbar-nav px-3">
+        <li class="nav-item text-nowrap">
+          <a class="nav-link" href="#">Выйти</a>
+        </li>
+      </ul>
+
+    </div>
+
+  </nav>
+
+  <div class="container-fluid">
+    <div class="row">
+
+      <nav id="sidebarMenu" class="col-1 d-md-block bg-light sidebar collapse border ">
+        <div class="sidebar-sticky pt-3">
+          <ul class="nav flex-column text-center">
+            <li class="nav-item">
+              <a class="nav-link active py-4" href="#">
+                <img src="img/svg/home-ico.svg" alt="Home" width="28" height="28">
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link py-4" href="#">
+                <img src="img/svg/email-ico.svg" alt="Email" width="28" height="28">
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link py-4" href="page-1.html">
+                <img src="img/svg/attach-file-ico.svg" alt="File" width="28" height="28">
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link py-4" href="#">
+                <img src="img/svg/industry-ico.svg" alt="Industry" width="28" height="28">
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link py-4" href="#">
+                <img src="img/svg/private-ico.svg" alt="Private" width="28" height="28">
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link py-4" href="#">
+                <img src="img/svg/map-ico.svg" alt="Map" width="28" height="28">
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link py-4" href="#">
+                <img src="img/svg/gmo-ico.svg" alt="Watch" width="28" height="28">
+              </a>
+            </li>
+
+          </ul>
+          <hr>
+          <ul class="nav flex-column text-center">
+            <li class="nav-item">
+              <a class="nav-link py-4" href="#">
+                <img src="img/svg/settings-ico.svg" alt="Watch" width="28" height="28">
+              </a>
+            </li>
+          </ul>
+
+
+
+        </div>
+      </nav>
+
+      <main role="main" class="col-10 pt-3">
+
+        <!-- <div class="container-fluid">
+          <h5 class="text-apr-txt text-uppercase mb-3 text-center">Профиль</h5>
+          <div class="row">
+            
+            </div>
+
+        </div> -->
+        <h5 class="text-apr-txt">Профиль</h5>
+       
+        <form>
+          <div class="row">
+            <div class="col-12 mb-2">
+              <img class="mr-1" src="/img/svg/home-ico-c.svg" width="22" height="22" alt="Home">
+              <label class="form-label" for="upravlenie">Управление</label>
+              <input type="text" class="form-control">
+            </div>
+            <div class="col-12 mb-2">
+              <img class="mr-1" src="/img/svg/form-ico-c.svg" width="22" height="22" alt="Form">
+              <label class="form-label" for="position">Должность</label>
+              <input type="text" class="form-control" id="position">
+            </div>
+            <hr class="my-3">
+            <h6 class="text-uppercase">Личные данные</h6>
+            <div class="col-12 mb-2">
+              <label class="form-label" for="photoProfile">Фото профиля</label>
+              <input type="text" class="form-control" id="photoProfile">
+            </div>
+            <div class="col-12 mb-2">
+              <label class="form-label" for="photoProfile">Почта</label>
+              <input type="text" class="form-control" id="photoProfile">
+            </div>
+            <div class="col-12">
+              <label class="form-label" for="photoProfile">Городской телефон</label>
+              <input type="text" class="form-control" id="photoProfile">
+            </div>
+            <div class="col-12">
+              <label class="form-label" for="photoProfile">Мобильный телефон</label>
+              <input type="text" class="form-control" id="photoProfile">
+            </div>
+            <h6 class="text-uppercase text-danger">Безопасность</h6>
+            <div class="col-12">
+              <label class="form-label" for="photoProfile">Логин</label>
+              <input type="text" class="form-control" id="photoProfile">
+            </div>
+            <div class="col-12">
+              <label class="form-label" for="photoProfile">Пароль</label>
+              <input type="text" class="form-control" id="photoProfile">
+            </div>
+            <div class="col-12">
+              <label class="form-label" for="photoProfile">Права доступа</label>
+              <input type="text" class="form-control" id="photoProfile">
+            </div>
+
+          </div>
+          <div class="button-group">
+            <button class="btn btn-secondary">Отменить</button>
+            <button class="btn btn-primary">Сохранить</button>
+
+          </div>
+          
+
+        </form>
+
+      
+
+      </main>
+      <nav id="sidebarMenu" class="col-1 d-md-block bg-light sidebar collapse border ">
+        <div class="sidebar-sticky pt-3">
+          <ul class="nav flex-column text-center">
+            <li class="nav-item py-3">
+              <a class="round-button" href="#">
+                <img src="img/svg/arrow-ico.svg" alt="File" width="16" height="16">
+              </a>
+            </li>
+            <li class="nav-item py-3">
+              <a class="round-button" href="#">
+                <img src="img/svg/alarm-clock-ico.svg" alt="File" width="16" height="16">
+              </a>
+            </li>
+            <li class="nav-item py-3">
+              <a class="round-button" href="#">
+                <img src="img/svg/calendar-ico.svg" alt="File" width="16" height="16">
+              </a>
+            </li>
+
+          </ul>
+
+
+
+
+        </div>
+      </nav>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+  <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
